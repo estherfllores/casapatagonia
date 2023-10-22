@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h3, h6 {
+    font-family: "Onest";
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    color: #323232;
+}
+
+.logo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+   
+}
+
+.menu-link {
+    color: #323232;
+}
+
+
+.patagonia {
+    background-image: url("../img/Fondo\ Patagonia.png");
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: auto;
+    margin-bottom: 107rem
+}
+
+
+.patagonia-container {
+    max-width: 800px;
+    position: center;
+    text-align: center;
+    margin-inline: 35rem;
+    padding-block: 9.5rem;
+}
+
+.patagonia-titulo {
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+.patagonia-text-1 {
+    font-size: 0.8rem;
+    padding-bottom: 1.5rem;
+   
+}
+
+
+.btn {
+    background-color: white;
+    color: #323232;
+    padding: .3rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.galeria {
+    padding-block: 1rem;
+    background-color: white;
+    color: #323232;
+
+    
+}
+
+.galeria-title {
+    text-align: left;
+    margin-inline: 16.1rem;
+    color: #323232;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.galeria-container {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    
+
+}
+
+.galeria-foto {
+    width: 100%;
+    font-size: 0.8rem;
+    
+  
+}
+
+.galeria-foto img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+
+   
+}
+
+
+
+.texto-foto {
+    font-size: 0.6rem;
+    text-align: center;
+    margin-block: 0.3rem;
+}
+
+.titulo-paisaje {
+    color: #323232;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-inline: 16.1rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-paisa {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.paisaje {
+    background-color: #dcdcdc;
+    color: #323232;
+}
+
+
+.paisaje-container {
+  
+    display: flex;
+    align-items: center;
+    margin-inline: 16.1rem;
+    gap: 2.5rem;
+   
+   
+}
+
+
+.paisaje-text-1 {
+
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
+    
+    
+}
+
+.paisaje-text-2 {
+    margin-bottom: 1rem;
+    
+}
+
+.paisaje-text-3 {
+    margin-top: 1.2rem;
+}
+
+.galeria2 {
+    padding-block: 2rem;
+    background-color: white;
+    color: #323232;
+
+    
+}
+
+.galeria-title {
+    text-align: left;
+    margin-inline: 16.1rem;
+    color: #323232;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.galeria-container {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    
+   
+}
+
+.galeria-foto {
+    width: 100%;
+    font-size: 0.8rem;
+    
+  
+}
+
+.galeria-foto img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+
+   
+}
+
+
+.texto-foto {
+    font-size: 0.6rem;
+    text-align: center;
+    margin-block: 0.3rem;
+}
+
+  
+
+.footer {
+    gap: 1rem;
+    padding-block: 2rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #dcdcdc;
+    width: 100%;
+    bottom: 0;
+    position: left;
+    
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.footer-icons a {
+    color: #323232;
+    font-size: 1.2rem;
+}
+
+.footer-link {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+
+.galeria2 {
+    padding-block: 1rem;
+    background-color: white;
+    color: #323232;
+    
+
+    
+}
+
+.galeria-title2 {
+    text-align: left;
+    margin-inline: 16rem;
+    color: #323232;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.galeria-container2 {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    
+
+}
+
+.galeria-foto2 {
+    width: 100%;
+    font-size: 0.8rem;
+    
+  
+}
+
+.galeria-foto2 img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+   
+}
+
+
+.formulario-title {
+    text-align: left;
+    margin-inline: 31.8rem;
+    color: #323232;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-block: 2rem;
+}
+
+.from {
+    text-align: left;
+    margin-inline: 16.1rem;
+    color: #323232;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.formulario-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #323232;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #323232;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #dcdcdc;
+  }
+
