@@ -19,13 +19,11 @@ img {
     max-width: 100%;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 6rem;
+.navbar {
+    padding: 1rem 4rem;
+    font-size: 16px;
     color: #323232;
-}
+  }
 
 .logo {
     width: 100%;
@@ -62,17 +60,19 @@ img {
     position: center;
     text-align: center;
     margin-inline: 35rem;
-    padding-block: 9.5rem;
+    padding-block: 9rem;
 }
 
 .patagonia-titulo {
     font-size: 2rem;
     padding: 0.3rem;
+    font-weight: bold;
+    
 }
 
 .patagonia-text-1 {
     font-size: 0.8rem;
-    padding-bottom: 1.5rem;
+   
    
 }
 
@@ -83,6 +83,7 @@ img {
     padding: .3rem 1rem;
     font-size: 0.8rem;
     border-radius: 20px;
+    
 }
 
 .btn2 {
@@ -115,6 +116,7 @@ img {
     color: #323232;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .galeria-container {
@@ -183,6 +185,7 @@ img {
     margin-bottom: 2rem;
     font-size: 1.2;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 
@@ -226,17 +229,20 @@ img {
 
     margin-bottom: 0.8rem;
     padding-bottom: 0.8rem;
+    font-size: 16px;
     
     
 }
 
 .paisaje-text-2 {
     margin-bottom: 1rem;
-    
+    font-size: 16px;
 }
 
 .paisaje-text-3 {
     margin-top: 1.2rem;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .galeria2 {
@@ -261,6 +267,7 @@ img {
     color: #323232;
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 
@@ -295,17 +302,19 @@ img {
 }
 
 
+
 .texto-foto {
     font-size: 0.6rem;
     text-align: center;
     margin-block: 0.3rem;
+    
 }
 
   
 
 .footer {
     gap: 1rem;
-    padding-block: 2rem;
+    padding-block: 1.5rem;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -390,6 +399,7 @@ img {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     margin-block: 2rem;
+    font-weight: bold;
 }
 
 .from {
@@ -440,4 +450,3 @@ img {
   input[type="submit"]:hover {
     background-color: #dcdcdc;
   }
-
