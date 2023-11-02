@@ -1,0 +1,55 @@
+//GALERIA PAGINA DE INICIO
+
+.galeria {
+    padding-block: 1rem;
+    background-color: white;
+    color: #323232;
+    
+    .galeria-title {
+        text-align: left;
+        margin-inline: 16.1rem;
+        color: #323232;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+    .galeria-container {
+        display: flex;
+        max-width: 1000px;
+        margin-inline: auto;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 600;
+
+        .galeria-foto {
+            width: 100%;
+            font-size: 0.8rem;
+            
+            .texto-foto {
+                font-size: 0.6rem;
+                text-align: center;
+                margin-block: 0.3rem;
+            }
+          
+        }
+    }  
+    .btn2 {
+        background-color: #323232;
+        color: white;
+        padding: .3rem 1rem;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        margin-left: 45rem;
+    }
+    
+    
+.galeria-foto img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 0.5rem;  
+}
+
+}

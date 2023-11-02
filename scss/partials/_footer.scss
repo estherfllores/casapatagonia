@@ -1,0 +1,31 @@
+
+// FOOTER
+
+.footer {
+    gap: 1rem;
+    padding-block: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #dcdcdc;
+    width: 100%;
+    bottom: 0;
+    position: left;
+    
+    .footer-icons {
+        display: flex;
+        gap: 1rem;
+        
+    }
+
+    .footer-icons a {
+        color: #323232;
+        font-size: 1.2rem;
+    }
+
+    .footer-link {
+        color: gray;
+        text-decoration: underline;
+    }
+      
+}

@@ -1,0 +1,32 @@
+// PAGINA ACTIVIDADES
+
+.galeria2 {
+    padding-block: 2rem;
+    background-color: white;
+    color: #323232;
+
+    .galeria-title2 {
+        text-align: left;
+        margin-inline: 16.1rem;
+        color: #323232;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .galeria-container {
+        display: flex;
+        max-width: 1000px;
+        margin-inline: auto;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 600; 
+    }
+    
+    .texto-foto {
+        font-size: 0.6rem;
+        text-align: center;
+        margin-block: 0.3rem;
+        
+    }
+}

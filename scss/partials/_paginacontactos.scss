@@ -1,0 +1,68 @@
+//PAGINA CONTACTOS
+
+.formulario {
+   
+    .formulario-title {
+        text-align: left;
+        margin-inline: 31.8rem;
+        color: #323232;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        margin-block: 2rem;
+        font-weight: bold;
+    }            
+
+    .formulario-container {
+        width: 500px;
+        margin: 0 auto;
+        text-align: left;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    
+        .from {
+            text-align: left;
+            margin-inline: 16.1rem;
+            color: #323232;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        
+            label {
+                display: block;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #323232;
+              }
+        
+              input,
+              textarea {
+                width: 100%;
+                padding: 12px 20px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                font-size: 16px;
+              }
+
+              input[type="submit"] {
+                background-color: #323232;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              input[type="submit"]:hover {
+                background-color: #dcdcdc;
+              }   
+              
+              input[type="submit"]:hover {
+                background-color: #dcdcdc;
+              }
+        }
+        
+    }
+}

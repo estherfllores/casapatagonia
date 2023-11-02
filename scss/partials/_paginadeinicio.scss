@@ -1,0 +1,39 @@
+// PAGINA DE INICIO 
+
+.patagonia {
+    background-image: url("../img/Fondo\ Patagonia.png");
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: auto;
+    margin-bottom: 107rem
+
+   
+}
+
+.patagonia-container {
+    max-width: 800px;
+    position: center;
+    text-align: center;
+    margin-inline: 35rem;
+    padding-block: 9rem;
+
+    .patagonia-titulo {
+        font-size: 2rem;
+        padding: 0.3rem;
+        font-weight: bold;
+    }
+    .patagonia-text-1 {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        background-color: white;
+        color: #323232;
+        padding: .3rem 1rem;
+        font-size: 0.8rem;
+        border-radius: 20px;
+        
+    }
+}

@@ -1,0 +1,28 @@
+//PAGINA ALOJAMIENTOS
+
+.galeria2 {
+    padding-block: 1rem;
+    background-color: white;
+    color: #323232;
+    
+    .galeria-title2 {
+        text-align: left;
+        margin-inline: 16rem;
+        color: #323232;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .galeria-foto2 {
+        width: 100%;
+        font-size: 0.8rem; 
+    }
+    .galeria-foto2 img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        margin-bottom: 0.5rem;
+       
+    }
+}
