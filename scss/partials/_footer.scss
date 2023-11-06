@@ -1,5 +1,4 @@
-
-// FOOTER
+//FOOTER
 
 .footer {
     gap: 1rem;
@@ -7,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    background-color: #dcdcdc;
+    background-color: $colorsecundario;
     width: 100%;
     bottom: 0;
     position: left;
@@ -15,17 +14,15 @@
     .footer-icons {
         display: flex;
         gap: 1rem;
-        
     }
 
     .footer-icons a {
         color: #323232;
         font-size: 1.2rem;
-    }
+    }  
 
     .footer-link {
         color: gray;
         text-decoration: underline;
     }
-      
 }

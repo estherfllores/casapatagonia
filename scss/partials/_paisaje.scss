@@ -1,0 +1,83 @@
+//PAISAJE
+
+.paisaje {
+    background-color:$colorsecundario;
+    color:$colorprincipal;
+
+    .paisaje-container {
+  
+        display: flex;
+        align-items: center;
+        margin-inline: 16.1rem;
+        gap: 2.5rem;
+        margin-bottom: 0.5rem;  
+
+        .titulo-paisa {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-size: 1.2;
+            box-sizing: border-box;
+            font-weight: bold;
+
+            .paisaje-text-1 {
+
+                margin-bottom: 0.8rem;
+                padding-bottom: 0.8rem;
+                font-size: 16px;    
+            }
+
+            .paisaje-text-2 {
+                margin-bottom: 1rem;
+                font-size: 16px;
+            }
+            
+        }
+        .paisaje-text-3 {
+            margin-top: 1.2rem;
+            font-weight: bold;
+            font-size: 13px;
+        }
+    }
+    
+}
+
+
+.paisaje2 {
+    color: $colorprincipal;
+    margin-top: 1rem;
+    
+    .paisaje-container2 {
+  
+        display: flex;
+        align-items: center;
+        margin-inline: 16.1rem;
+        gap: 2.5rem;
+        margin-bottom:2.5rem ;
+        
+        .titulo-paisa {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-size: 1.2;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+        .paisaje-text-1 {
+
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.8rem;
+            font-size: 16px;   
+        }
+
+        .paisaje-text-2 {
+            margin-bottom: 1rem;
+            font-size: 16px;
+        }
+
+        .paisaje-text-3 {
+            margin-top: 1.2rem;
+            font-weight: bold;
+            font-size: 13px;
+        }
+    }
+    
+}

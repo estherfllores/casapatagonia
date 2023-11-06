@@ -24,20 +24,19 @@ img {
   color: #323232;
 }
 
-.navbar .logo {
+.logo {
   width: 100%;
   aspect-ratio: 1/1;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
-.navbar .menu {
+.menu {
   list-style-type: none;
   display: flex;
   gap: 1rem;
 }
 
-.navbar .menu .menu-link {
+.menu-link {
   color: #323232;
 }
 
@@ -50,26 +49,22 @@ img {
   padding: auto;
   margin-bottom: 107rem;
 }
-
-.patagonia-container {
+.patagonia .patagonia-container {
   max-width: 800px;
   position: center;
   text-align: center;
   margin-inline: 35rem;
   padding-block: 9rem;
 }
-
-.patagonia-container .patagonia-titulo {
+.patagonia .patagonia-container .patagonia-titulo {
   font-size: 2rem;
   padding: 0.3rem;
   font-weight: bold;
 }
-
-.patagonia-container .patagonia-text-1 {
+.patagonia .patagonia-container .patagonia-text-1 {
   font-size: 0.8rem;
 }
-
-.patagonia-container .btn {
+.patagonia .patagonia-container .btn {
   background-color: white;
   color: #323232;
   padding: 0.3rem 1rem;
@@ -81,15 +76,6 @@ img {
   background-color: #dcdcdc;
   color: #323232;
 }
-
-.paisaje .titulo-paisaje {
-  color: #323232;
-  font-size: 1.2rem;
-  text-align: left;
-  margin-inline: 16.1rem;
-  margin-bottom: 2rem;
-}
-
 .paisaje .paisaje-container {
   display: flex;
   align-items: center;
@@ -97,27 +83,56 @@ img {
   gap: 2.5rem;
   margin-bottom: 0.5rem;
 }
-
-.paisaje .paisaje-info .titulo-paisa {
+.paisaje .paisaje-container .titulo-paisa {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-size: 1.2;
   box-sizing: border-box;
   font-weight: bold;
 }
-
-.paisaje .paisaje-info .titulo-paisa .paisaje-text-1 {
+.paisaje .paisaje-container .titulo-paisa .paisaje-text-1 {
   margin-bottom: 0.8rem;
   padding-bottom: 0.8rem;
   font-size: 16px;
 }
-
-.paisaje .paisaje-info .titulo-paisa .paisaje-text-2 {
+.paisaje .paisaje-container .titulo-paisa .paisaje-text-2 {
   margin-bottom: 1rem;
   font-size: 16px;
 }
+.paisaje .paisaje-container .paisaje-text-3 {
+  margin-top: 1.2rem;
+  font-weight: bold;
+  font-size: 13px;
+}
 
-.paisaje .paisaje-info .titulo-paisa .paisaje-text-3 {
+.paisaje2 {
+  color: #323232;
+  margin-top: 1rem;
+}
+.paisaje2 .paisaje-container2 {
+  display: flex;
+  align-items: center;
+  margin-inline: 16.1rem;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.paisaje2 .paisaje-container2 .titulo-paisa {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.paisaje2 .paisaje-container2 .paisaje-text-1 {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
+  font-size: 16px;
+}
+.paisaje2 .paisaje-container2 .paisaje-text-2 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.paisaje2 .paisaje-container2 .paisaje-text-3 {
   margin-top: 1.2rem;
   font-weight: bold;
   font-size: 13px;
@@ -128,7 +143,6 @@ img {
   background-color: white;
   color: #323232;
 }
-
 .galeria .galeria-title {
   text-align: left;
   margin-inline: 16.1rem;
@@ -137,7 +151,6 @@ img {
   margin-bottom: 2rem;
   font-weight: bold;
 }
-
 .galeria .galeria-container {
   display: flex;
   max-width: 1000px;
@@ -148,19 +161,25 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
 }
-
 .galeria .galeria-container .galeria-foto {
   width: 100%;
   font-size: 0.8rem;
 }
-
 .galeria .galeria-container .galeria-foto .texto-foto {
   font-size: 0.6rem;
   text-align: center;
   margin-block: 0.3rem;
 }
-
-.galeria .btn2 {
+.galeria .galeria-container .galeria-foto .galeria-foto img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.galeria .Boton {
+  margin-bottom: 2rem;
+}
+.galeria .Boton .btn2 {
   background-color: #323232;
   color: white;
   padding: 0.3rem 1rem;
@@ -169,70 +188,7 @@ img {
   margin-left: 45rem;
 }
 
-.galeria .galeria-foto img {
-  width: 100%;
-  aspect-ratio: 1/1;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin-bottom: 0.5rem;
-}
-
-.paisaje2 {
-  color: #323232;
-  margin-top: 1rem;
-}
-
-.paisaje2 .paisaje-container2 {
-  display: flex;
-  align-items: center;
-  margin-inline: 16.1rem;
-  gap: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.galeria2 {
-  padding-block: 1rem;
-  background-color: white;
-  color: #323232;
-}
-
-.galeria2 .galeria-title2 {
-  text-align: left;
-  margin-inline: 16rem;
-  color: #323232;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
-.galeria2 .galeria-foto2 {
-  width: 100%;
-  font-size: 0.8rem;
-}
-
-.galeria2 .galeria-foto2 img {
-  width: 100%;
-  aspect-ratio: 1/1;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin-bottom: 0.5rem;
-}
-
-.galeria2 {
-  padding-block: 2rem;
-  background-color: white;
-  color: #323232;
-}
-
-.galeria2 .galeria-title2 {
-  text-align: left;
-  margin-inline: 16.1rem;
-  color: #323232;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.galeria2 .galeria-container {
+.galeria-container {
   display: flex;
   max-width: 1000px;
   margin-inline: auto;
@@ -242,14 +198,23 @@ img {
   font-size: 0.9rem;
   font-weight: 600;
 }
-
-.galeria2 .texto-foto {
+.galeria-container .galeria-foto {
+  width: 100%;
+  font-size: 0.8rem;
+}
+.galeria-container .galeria-foto .texto-foto {
   font-size: 0.6rem;
   text-align: center;
   margin-block: 0.3rem;
 }
+.galeria-container .galeria-foto img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
 
-.formulario .formulario-title {
+.formulario-title {
   text-align: left;
   margin-inline: 31.8rem;
   color: #323232;
@@ -259,7 +224,7 @@ img {
   font-weight: bold;
 }
 
-.formulario .formulario-container {
+.formulario-container {
   width: 500px;
   margin: 0 auto;
   text-align: left;
@@ -267,25 +232,21 @@ img {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.formulario .formulario-container .from {
+.formulario-container .from {
   text-align: left;
   margin-inline: 16.1rem;
   color: #323232;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
-
-.formulario .formulario-container .from label {
+.formulario-container label {
   display: block;
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
   color: #323232;
 }
-
-.formulario .formulario-container .from input,
-.formulario .formulario-container .from textarea {
+.formulario-container input, .formulario-container textarea {
   width: 100%;
   padding: 12px 20px;
   margin-bottom: 20px;
@@ -294,8 +255,7 @@ img {
   box-sizing: border-box;
   font-size: 16px;
 }
-
-.formulario .formulario-container .from input[type=submit] {
+.formulario-container input[type=submit] {
   background-color: #323232;
   color: white;
   padding: 12px 20px;
@@ -303,12 +263,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.formulario .formulario-container .from input[type=submit]:hover {
-  background-color: #dcdcdc;
-}
-
-.formulario .formulario-container .from input[type=submit]:hover {
+.formulario-container input[type=submit]:hover {
   background-color: #dcdcdc;
 }
 
@@ -323,20 +278,17 @@ img {
   bottom: 0;
   position: left;
 }
-
 .footer .footer-icons {
   display: flex;
   gap: 1rem;
 }
-
 .footer .footer-icons a {
   color: #323232;
   font-size: 1.2rem;
 }
-
 .footer .footer-link {
   color: gray;
   text-decoration: underline;
-} 
+}
 
 /*# sourceMappingURL=estilos.css.map */
