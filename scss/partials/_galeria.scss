@@ -11,7 +11,7 @@
         color: $colorprincipal;
         font-size: 1.2rem;
         margin-bottom: 2rem;
-        font-weight: bold;
+        font-weight: bold;      
     }
     
          
@@ -28,7 +28,7 @@
         .galeria-foto {
             width: 100%;
             font-size: 0.8rem;
-            
+
             .texto-foto {
                 font-size: 0.6rem;
                 text-align: center;
@@ -38,11 +38,13 @@
                 width: 100%;
                 aspect-ratio: 1 / 1;
                 object-fit: cover;
-                margin-bottom: 0.5rem;  
+                margin-bottom: 0.5rem;   
             }
-                
-        }
+        
+        } 
+
     }
+
 
     .Boton {
         margin-bottom: 2rem;  
@@ -76,6 +78,7 @@
         width: 100%;
         font-size: 0.8rem;
 
+        
         .texto-foto {
             font-size: 0.6rem;
             text-align: center;
@@ -91,3 +94,13 @@
         margin-bottom: 0.5rem;
     }
 }
+
+.galeria-foto {
+    transition: 0.5s;
+}
+
+.galeria-foto:hover {
+     transform: scale(1.15);
+               }
+
+  
