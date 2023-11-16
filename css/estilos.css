@@ -6,6 +6,10 @@
   font-family: "Montserrat";
 }
 
+.body {
+  min-height: calc(100vh - 100px - 300px);
+}
+
 a {
   text-decoration: none;
 }
@@ -47,13 +51,10 @@ img {
   background-position: center;
   color: white;
   padding: auto;
-  margin-bottom: 107rem;
 }
 .patagonia .patagonia-container {
-  max-width: 800px;
   position: center;
   text-align: center;
-  margin-inline: 35rem;
   padding-block: 9rem;
 }
 .patagonia .patagonia-container .patagonia-titulo {
@@ -79,9 +80,17 @@ img {
 .paisaje .paisaje-container {
   display: flex;
   align-items: center;
-  margin-inline: 16.1rem;
+  max-width: 1000px;
+  margin-inline: auto;
   gap: 2.5rem;
   margin-bottom: 0.5rem;
+}
+@media (max-width: 1300px) {
+  .paisaje .paisaje-container {
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-top: 3rem;
+  }
 }
 .paisaje .paisaje-container .titulo-paisa {
   font-size: 1.2rem;
@@ -112,9 +121,17 @@ img {
 .paisaje2 .paisaje-container2 {
   display: flex;
   align-items: center;
-  margin-inline: 16.1rem;
+  max-width: 1000px;
+  margin-inline: auto;
   gap: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 1300px) {
+  .paisaje2 .paisaje-container2 {
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-top: 3rem;
+  }
 }
 .paisaje2 .paisaje-container2 .titulo-paisa {
   font-size: 1.2rem;
@@ -144,12 +161,12 @@ img {
   color: #323232;
 }
 .galeria .galeria-title {
-  text-align: left;
-  margin-inline: 16.1rem;
+  text-align: center;
   color: #323232;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   font-weight: bold;
+  margin-top: 1.2rem;
 }
 .galeria .galeria-container {
   display: flex;
@@ -160,6 +177,13 @@ img {
   text-align: center;
   font-size: 0.9rem;
   font-weight: 600;
+}
+@media (max-width: 1300px) {
+  .galeria .galeria-container {
+    flex-direction: column;
+    padding-inline: 2rem;
+    padding-top: 3rem;
+  }
 }
 .galeria .galeria-container .galeria-foto {
   width: 100%;
@@ -178,6 +202,8 @@ img {
 }
 .galeria .Boton {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
 .galeria .Boton .btn2 {
   background-color: #323232;
@@ -185,7 +211,6 @@ img {
   padding: 0.3rem 1rem;
   font-size: 0.8rem;
   border-radius: 20px;
-  margin-left: 45rem;
 }
 
 .galeria-container {
@@ -214,18 +239,27 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.galeria-foto {
+  transition: 0.5s;
+}
+
+.galeria-foto:hover {
+  transform: scale(1.15);
+}
+
 .formulario-title {
-  text-align: left;
-  margin-inline: 31.8rem;
+  display: flex;
+  justify-content: center;
   color: #323232;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   margin-block: 2rem;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .formulario-container {
-  width: 500px;
+  width: 350px;
   margin: 0 auto;
   text-align: left;
   padding: 20px;

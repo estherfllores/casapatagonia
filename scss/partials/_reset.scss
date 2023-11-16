@@ -5,7 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+    
 }
+
+.body {
+    min-height: calc(100vh - 100px - 300px)
+}
+
 
 a {
     text-decoration: none;
